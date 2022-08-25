@@ -4,14 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74392d26-4133-4b4b-8eb3-c2bea5b2f3f7" name="Changes" comment="" />
+    <list default="true" id="74392d26-4133-4b4b-8eb3-c2bea5b2f3f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/SpringMvcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/UserController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/UserRestfullController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/dto/UserAddDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/dto/UserUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/src/test/java/jdi/springboot/springmvc/SpringMvcApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springMVC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DkOaviEAvXBWPNM9Xox76tgJkL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,11 +54,35 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "zulu-1.8",
+    "last_opened_file_path": "/Users/longguo/Documents/jdi/jdi-sb/springMVC/src/main/java/jdi/springboot/springmvc"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="jdi.springboot.springmvc.controller.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springMVC" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jdi.springboot.springmvc.SpringMvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,8 +91,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661239682703</updated>
+      <workItem from="1661239684379" duration="3909000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
