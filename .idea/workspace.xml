@@ -4,29 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74392d26-4133-4b4b-8eb3-c2bea5b2f3f7" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/fastRequestCollection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/GlobalResponseBodyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/config/SpringMVCConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/constants/ServiceExceptionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/vo/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/interceptor/FirstInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/interceptor/SecondInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/interceptor/ThirdInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/servlet/TestFilter02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/servlet/TestServlet02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/servlet/TestServletContextListener02.java" afterDir="false" />
+    <list default="true" id="74392d26-4133-4b4b-8eb3-c2bea5b2f3f7" name="Changes" comment="feat: add https://www.iocoder.cn/Spring-Boot/SpringMVC/?yudao">
+      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/constants/GenderEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/dto/UserUpdateGenderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/validators/InEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/validators/InEnumValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/validators/IntArrayValuable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/SpringMvcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/SpringMvcApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/UserController2.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/UserController2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/constants/ServiceExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/constants/ServiceExceptionEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/UserRestfullController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/UserRestfullController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/dto/UserAddDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/dto/UserAddDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -100,7 +92,7 @@
       <workItem from="1661239684379" duration="5497000" />
       <workItem from="1661388511802" duration="8293000" />
       <workItem from="1661818866228" duration="2495000" />
-      <workItem from="1661907741500" duration="3921000" />
+      <workItem from="1661907741500" duration="11598000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1661387060084</created>
@@ -130,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661388222184</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add https://www.iocoder.cn/Spring-Boot/SpringMVC/?yudao">
+      <created>1662019456066</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662019456066</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +151,7 @@
       <path value="$PROJECT_DIR$/springMVC" />
     </ignored-roots>
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="feat: add https://www.iocoder.cn/Spring-Boot/SpringMVC/?yudao" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add https://www.iocoder.cn/Spring-Boot/SpringMVC/?yudao" />
   </component>
 </project>
