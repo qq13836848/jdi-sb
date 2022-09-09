@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74392d26-4133-4b4b-8eb3-c2bea5b2f3f7" name="Changes" comment="feat: add https://www.iocoder.cn/Spring-Boot/SpringMVC/?yudao">
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/constants/GenderEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/dto/UserUpdateGenderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/validators/InEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/validators/InEnumValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/validators/IntArrayValuable.java" afterDir="false" />
+    <list default="true" id="74392d26-4133-4b4b-8eb3-c2bea5b2f3f7" name="Changes" comment="feat: add https://www.iocoder.cn/Spring-Boot/Validation/?self">
+      <change afterPath="$PROJECT_DIR$/jdi-mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-mybatis/src/main/java/jdi/springboot/mybatis/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-mybatis/src/main/java/jdi/springboot/mybatis/dataobject/UserDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-mybatis/src/main/java/jdi/springboot/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-mybatis/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-mybatis/src/test/java/jdi/springboot/mybatis/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/SpringMvcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/SpringMvcApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/constants/ServiceExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/constants/ServiceExceptionEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/UserRestfullController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/UserRestfullController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/dto/UserAddDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc/controller/dto/UserAddDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2DkOaviEAvXBWPNM9Xox76tgJkL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,8 +64,11 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-1.8&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/longguo/Documents/jdi/jdi-sb/springMVC/src/main/java/jdi/springboot/springmvc&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.saveactions&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;f3d3aa98aabc9efd19fc10cd3b05aeab&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f849d9d0c78e59507f2da6252ee69a89&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -72,7 +82,87 @@
       <recent name="jdi.springboot.springmvc.interceptor" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UserMapperTest.testSelectByIds">
+    <configuration name="UserMapperTest.testDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdi-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdi.springboot.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdi.springboot.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mybatis.UserMapperTest" />
+      <option name="METHOD_NAME" value="testDeleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdi-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdi.springboot.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdi.springboot.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mybatis.UserMapperTest" />
+      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testSelectByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdi-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdi.springboot.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdi.springboot.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mybatis.UserMapperTest" />
+      <option name="METHOD_NAME" value="testSelectByIds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testSelectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdi-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdi.springboot.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdi.springboot.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mybatis.UserMapperTest" />
+      <option name="METHOD_NAME" value="testSelectByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.testUpdateById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdi-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdi.springboot.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdi.springboot.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mybatis.UserMapperTest" />
+      <option name="METHOD_NAME" value="testUpdateById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springMVC" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="jdi.springboot.springmvc.SpringMvcApplication" />
@@ -80,6 +170,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserMapperTest.testSelectByIds" />
+        <item itemvalue="JUnit.UserMapperTest.testSelectByUsername" />
+        <item itemvalue="JUnit.UserMapperTest.testSelectById" />
+        <item itemvalue="JUnit.UserMapperTest.testDeleteById" />
+        <item itemvalue="JUnit.UserMapperTest.testUpdateById" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -93,6 +192,9 @@
       <workItem from="1661388511802" duration="8293000" />
       <workItem from="1661818866228" duration="2495000" />
       <workItem from="1661907741500" duration="11598000" />
+      <workItem from="1662691919301" duration="1389000" />
+      <workItem from="1662693329789" duration="30000" />
+      <workItem from="1662693382932" duration="3802000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1661387060084</created>
@@ -152,6 +254,7 @@
     </ignored-roots>
     <MESSAGE value="first commit" />
     <MESSAGE value="feat: add https://www.iocoder.cn/Spring-Boot/SpringMVC/?yudao" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add https://www.iocoder.cn/Spring-Boot/SpringMVC/?yudao" />
+    <MESSAGE value="feat: add https://www.iocoder.cn/Spring-Boot/Validation/?self" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add https://www.iocoder.cn/Spring-Boot/Validation/?self" />
   </component>
 </project>

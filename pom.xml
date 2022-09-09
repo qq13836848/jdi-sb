@@ -17,6 +17,7 @@
 
     <modules>
         <module>springMVC</module>
+        <module>jdi-mybatis</module>
     </modules>
 
     <properties>
