@@ -18,6 +18,7 @@
     <modules>
         <module>springMVC</module>
         <module>jdi-mybatis</module>
+        <module>jdi-async</module>
     </modules>
 
     <properties>
