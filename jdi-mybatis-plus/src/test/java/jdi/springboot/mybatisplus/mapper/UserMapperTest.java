@@ -16,10 +16,8 @@ public class UserMapperTest {
 
   @Test
   public void testInsert() {
-    UserDO user = new UserDO();
-    user.setUsername(UUID.randomUUID().toString());
-    user.setPassword("nicai");
-    user.setDeleted(0);
+    UserDO user =
+        new UserDO().setUsername(UUID.randomUUID().toString()).setPassword("nicai").setDeleted(0);
     userMapper.insert(user);
   }
 
