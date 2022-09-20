@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jdi-springboot?useSSL=false&useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=True
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Jdi@4321
+
+mybatis-plus:
+  type-aliases-package: jdi.springboot.mybatisplus.dataobject
+  configuration:
+    map-underscore-to-camel-case: true
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  mapper-locations: classpath*:mapper/*.xml
+
+logging:
+  level:
+    jdi:
+      springboot:
+        mybatisplus:
+          mapper: debug
