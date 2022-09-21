@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74392d26-4133-4b4b-8eb3-c2bea5b2f3f7" name="Changes" comment="feat: add https://www.iocoder.cn/Spring-Boot/MyBatis/?yudao mybatis-plus">
+    <list default="true" id="74392d26-4133-4b4b-8eb3-c2bea5b2f3f7" name="Changes" comment="https://www.iocoder.cn/Spring-Boot/Async-Job/#">
+      <change afterPath="$PROJECT_DIR$/jdi-async/src/main/java/jdi/springboot/async/config/AsyncConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-async/src/main/java/jdi/springboot/async/config/AsyncConfig1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-async/src/main/java/jdi/springboot/async/handler/GlobalAsyncExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-async/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdi-mybatis-plus/src/main/java/jdi/springboot/mybatisplus/dataobject/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdi-mybatis-plus/src/main/java/jdi/springboot/mybatisplus/dataobject/UserDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdi-mybatis-plus/src/test/java/jdi/springboot/mybatisplus/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdi-mybatis-plus/src/test/java/jdi/springboot/mybatisplus/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdi-async/src/main/java/jdi/springboot/async/service/DemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdi-async/src/main/java/jdi/springboot/async/service/DemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdi-async/src/test/java/jdi/springboot/async/service/DemoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdi-async/src/test/java/jdi/springboot/async/service/DemoServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,34 +80,66 @@
       <recent name="jdi.springboot.springmvc.interceptor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserMapperTest.testSelectByIds">
-    <configuration name="UserMapperTest.testDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdi-mybatis-plus" />
+  <component name="RunManager" selected="JUnit.DemoServiceTest.testExecute">
+    <configuration name="DemoServiceTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdi-async" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdi.springboot.mybatisplus.mapper.*" />
+          <option name="PATTERN" value="jdi.springboot.async.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdi.springboot.mybatisplus.mapper" />
-      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mybatisplus.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="testDeleteById" />
+      <option name="PACKAGE_NAME" value="jdi.springboot.async.service" />
+      <option name="MAIN_CLASS_NAME" value="jdi.springboot.async.service.DemoServiceTest" />
+      <option name="METHOD_NAME" value="test03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMapperTest.testSelectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdi-mybatis-plus" />
+    <configuration name="DemoServiceTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdi-async" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdi.springboot.mybatisplus.mapper.*" />
+          <option name="PATTERN" value="jdi.springboot.async.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdi.springboot.mybatisplus.mapper" />
-      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mybatisplus.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="testSelectById" />
+      <option name="PACKAGE_NAME" value="jdi.springboot.async.service" />
+      <option name="MAIN_CLASS_NAME" value="jdi.springboot.async.service.DemoServiceTest" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoServiceTest.testExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdi-async" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdi.springboot.async.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdi.springboot.async.service" />
+      <option name="MAIN_CLASS_NAME" value="jdi.springboot.async.service.DemoServiceTest" />
+      <option name="METHOD_NAME" value="testExecute" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoServiceTest.testZhaodaoNvpengyou" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdi-async" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdi.springboot.async.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdi.springboot.async.service" />
+      <option name="MAIN_CLASS_NAME" value="jdi.springboot.async.service.DemoServiceTest" />
+      <option name="METHOD_NAME" value="testZhaodaoNvpengyou" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,38 +161,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMapperTest.testSelectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdi-mybatis-plus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdi.springboot.mybatisplus.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdi.springboot.mybatisplus.mapper" />
-      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mybatisplus.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="testSelectByUsername" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserMapperTest.testUpdateById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdi-mybatis-plus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdi.springboot.mybatisplus.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdi.springboot.mybatisplus.mapper" />
-      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mybatisplus.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="testUpdateById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springMVC" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="jdi.springboot.springmvc.SpringMvcApplication" />
@@ -166,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DemoServiceTest.testExecute" />
+        <item itemvalue="JUnit.DemoServiceTest.testZhaodaoNvpengyou" />
+        <item itemvalue="JUnit.DemoServiceTest.test04" />
+        <item itemvalue="JUnit.DemoServiceTest.test03" />
         <item itemvalue="JUnit.UserMapperTest.testSelectByIds" />
-        <item itemvalue="JUnit.UserMapperTest.testSelectById" />
-        <item itemvalue="JUnit.UserMapperTest.testSelectByUsername" />
-        <item itemvalue="JUnit.UserMapperTest.testDeleteById" />
-        <item itemvalue="JUnit.UserMapperTest.testUpdateById" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +196,7 @@
       <workItem from="1663030837417" duration="189000" />
       <workItem from="1663031214559" duration="5122000" />
       <workItem from="1663288176428" duration="598000" />
-      <workItem from="1663652518640" duration="3377000" />
+      <workItem from="1663652518640" duration="9125000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1661387060084</created>
@@ -250,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663653880352</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: add https://www.iocoder.cn/Spring-Boot/MyBatis/?yudao mybatis-plus">
+      <created>1663664909790</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663664909790</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,19 +288,25 @@
     <MESSAGE value="feat: add https://www.iocoder.cn/Spring-Boot/MyBatis/?yudao  mybatis" />
     <MESSAGE value="feat: add https://www.iocoder.cn/Spring-Boot/Async-Job/  Async-Job" />
     <MESSAGE value="feat: add https://www.iocoder.cn/Spring-Boot/MyBatis/?yudao mybatis-plus" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add https://www.iocoder.cn/Spring-Boot/MyBatis/?yudao mybatis-plus" />
+    <MESSAGE value="https://www.iocoder.cn/Spring-Boot/Async-Job/#" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://www.iocoder.cn/Spring-Boot/Async-Job/#" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/jdi-async/src/test/java/jdi/springboot/async/service/DemoServiceTest.java</url>
-          <line>17</line>
+          <line>21</line>
           <properties class="jdi.springboot.async.service.DemoServiceTest" method="test01">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jdi-async/src/main/java/jdi/springboot/async/handler/GlobalAsyncExceptionHandler.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
