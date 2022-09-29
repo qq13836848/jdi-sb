@@ -20,6 +20,7 @@
         <module>jdi-mybatis</module>
         <module>jdi-async</module>
         <module>jdi-mybatis-plus</module>
+        <module>jdi-mapstruct</module>
     </modules>
 
     <properties>
