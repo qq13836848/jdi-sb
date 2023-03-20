@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74392d26-4133-4b4b-8eb3-c2bea5b2f3f7" name="Changes" comment="https://www.iocoder.cn/Spring-Boot/Async-Job/#">
-      <change afterPath="$PROJECT_DIR$/jdi-mapstruct/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdi-mapstruct/src/main/java/jdi/springboot/mapstruct/UserBOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdi-mapstruct/src/main/java/jdi/springboot/mapstruct/UserDetailBOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdi-mapstruct/src/main/java/jdi/springboot/mapstruct/bo/UserBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdi-mapstruct/src/main/java/jdi/springboot/mapstruct/bo/UserDetailBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdi-mapstruct/src/main/java/jdi/springboot/mapstruct/convert/UserConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdi-mapstruct/src/main/java/jdi/springboot/mapstruct/dataobject/UserDO.java" afterDir="false" />
+    <list default="true" id="74392d26-4133-4b4b-8eb3-c2bea5b2f3f7" name="Changes" comment="https://www.iocoder.cn/Spring-Boot/MapStruct/?self">
+      <change afterPath="$PROJECT_DIR$/jdi-aj-capcha/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-aj-capcha/src/main/java/jdi/sb/ajcapcha/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-aj-capcha/src/main/java/jdi/sb/ajcapcha/filter/CorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-aj-capcha/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-aj-capcha/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-redis/src/main/java/jdi/springboot/redis/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdi-redis/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdi-mybatis-plus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdi-mybatis-plus/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdi-mybatis-plus/src/test/java/jdi/springboot/mybatisplus/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdi-mybatis-plus/src/test/java/jdi/springboot/mybatisplus/mapper/UserMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +63,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/longguo/Documents/jdi/jdi-sb/springMVC/src/main/java/jdi/springboot/springmvc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/longguo/Documents/jdi/jdi-sb/jdi-aj-capcha/src/main/resources&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;f9898633d984aa49b93542e05fd53e65&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;774b625a4c44829d31b8529402bc7aa5&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -74,87 +77,99 @@
       <recent name="jdi.springboot.springmvc.controller.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jdi-aj-capcha/src/main/resources" />
       <recent name="$PROJECT_DIR$/springMVC/src/main/java/jdi/springboot/springmvc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/jdi-mybatis-plus/src/main/resources/mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jdi.sb.ajcapcha.filter" />
       <recent name="jdi.springboot.mapstruct" />
       <recent name="jdi.springboot.springmvc.interceptor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserDetailBOTest">
-    <configuration name="UserBOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mapstruct.UserBOTest" />
-      <module name="jdi-mapstruct" />
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Test.testStringSetKey">
+    <configuration name="Test.testStringSetKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdi-redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdi.springboot.mapstruct.*" />
+          <option name="PATTERN" value="jdi.springboot.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDetailBOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mapstruct.UserDetailBOTest" />
-      <module name="jdi-mapstruct" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdi.springboot.mapstruct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoServiceTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdi-async" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdi.springboot.async.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdi.springboot.async.service" />
-      <option name="MAIN_CLASS_NAME" value="jdi.springboot.async.service.DemoServiceTest" />
-      <option name="METHOD_NAME" value="test04" />
+      <option name="PACKAGE_NAME" value="jdi.springboot.redis" />
+      <option name="MAIN_CLASS_NAME" value="jdi.springboot.redis.Test" />
+      <option name="METHOD_NAME" value="testStringSetKey" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoServiceTest.testExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdi-async" />
+    <configuration name="UserMapperTest.aInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdi-mybatis-plus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdi.springboot.async.service.*" />
+          <option name="PATTERN" value="jdi.springboot.mybatisplus.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdi.springboot.async.service" />
-      <option name="MAIN_CLASS_NAME" value="jdi.springboot.async.service.DemoServiceTest" />
-      <option name="METHOD_NAME" value="testExecute" />
+      <option name="PACKAGE_NAME" value="jdi.springboot.mybatisplus.mapper" />
+      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mybatisplus.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="aInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoServiceTest.testZhaodaoNvpengyou" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdi-async" />
+    <configuration name="UserMapperTest.bDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdi-mybatis-plus" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdi.springboot.async.service.*" />
+          <option name="PATTERN" value="jdi.springboot.mybatisplus.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdi.springboot.async.service" />
-      <option name="MAIN_CLASS_NAME" value="jdi.springboot.async.service.DemoServiceTest" />
-      <option name="METHOD_NAME" value="testZhaodaoNvpengyou" />
+      <option name="PACKAGE_NAME" value="jdi.springboot.mybatisplus.mapper" />
+      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mybatisplus.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="bDelete" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.cUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdi-mybatis-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdi.springboot.mybatisplus.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdi.springboot.mybatisplus.mapper" />
+      <option name="MAIN_CLASS_NAME" value="jdi.springboot.mybatisplus.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="cUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="jdi-aj-capcha" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jdi.sb.ajcapcha.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdi.sb.ajcapcha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserDetailBOTest" />
-        <item itemvalue="Application.UserBOTest" />
-        <item itemvalue="JUnit.DemoServiceTest.testExecute" />
-        <item itemvalue="JUnit.DemoServiceTest.testZhaodaoNvpengyou" />
-        <item itemvalue="JUnit.DemoServiceTest.test04" />
+        <item itemvalue="JUnit.Test.testStringSetKey" />
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.UserMapperTest.cUpdate" />
+        <item itemvalue="JUnit.UserMapperTest.bDelete" />
+        <item itemvalue="JUnit.UserMapperTest.aInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +212,14 @@
       <workItem from="1663652518640" duration="9743000" />
       <workItem from="1664006055128" duration="3214000" />
       <workItem from="1664158094824" duration="602000" />
+      <workItem from="1664430841273" duration="2324000" />
+      <workItem from="1667025179098" duration="3470000" />
+      <workItem from="1667181765467" duration="598000" />
+      <workItem from="1667378991435" duration="598000" />
+      <workItem from="1667700223814" duration="596000" />
+      <workItem from="1668042968110" duration="598000" />
+      <workItem from="1669949945633" duration="3439000" />
+      <workItem from="1670223176773" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1661387060084</created>
@@ -268,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663736648503</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="https://www.iocoder.cn/Spring-Boot/MapStruct/?self">
+      <created>1664430902102</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664430902102</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +326,8 @@
     <MESSAGE value="feat: add https://www.iocoder.cn/Spring-Boot/Async-Job/  Async-Job" />
     <MESSAGE value="feat: add https://www.iocoder.cn/Spring-Boot/MyBatis/?yudao mybatis-plus" />
     <MESSAGE value="https://www.iocoder.cn/Spring-Boot/Async-Job/#" />
-    <option name="LAST_COMMIT_MESSAGE" value="https://www.iocoder.cn/Spring-Boot/Async-Job/#" />
+    <MESSAGE value="https://www.iocoder.cn/Spring-Boot/MapStruct/?self" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://www.iocoder.cn/Spring-Boot/MapStruct/?self" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

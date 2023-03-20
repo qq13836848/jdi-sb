@@ -21,6 +21,8 @@
         <module>jdi-async</module>
         <module>jdi-mybatis-plus</module>
         <module>jdi-mapstruct</module>
+        <module>jdi-redis</module>
+        <module>jdi-aj-capcha</module>
     </modules>
 
     <properties>

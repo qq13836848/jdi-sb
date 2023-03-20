@@ -1,6 +1,8 @@
 package jdi.springboot.mybatisplus.mapper;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import jdi.springboot.mybatisplus.dataobject.UserDO;
 import org.junit.jupiter.api.Test;
@@ -59,5 +61,30 @@ public class UserMapperTest {
     Date createTime = new Date(2018 - 1990, Calendar.FEBRUARY, 24);
     page = userMapper.selectPageByCreateTime(page, createTime);
     System.out.println(page);
+  }
+
+  @Test
+  public void aInsert() {
+    UserDO user = new UserDO().setUsername("test").setPassword("asdf");
+    userMapper.insert(user);
+  }
+
+  @Test
+  public void bDelete() {
+    userMapper.deleteById(9L);
+
+    userMapper.delete(
+        new QueryWrapper<UserDO>()
+            .lambda()
+            .eq(UserDO::getUsername, "3529b8d9-c16f-48ae-81e6-a5f87fe7ee65"));
+  }
+
+  @Test
+  public void cUpdate() {
+    userMapper.updateById(new UserDO().setId(7).setUsername("fff"));
+
+    userMapper.update(
+        new UserDO().setUsername("ddd"),
+        Wrappers.<UserDO>lambdaUpdate().set(UserDO::getPassword, "nicai").eq(UserDO::getId, 9));
   }
 }
