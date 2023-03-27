@@ -23,6 +23,7 @@
         <module>jdi-mapstruct</module>
         <module>jdi-redis</module>
         <module>jdi-aj-capcha</module>
+        <module>jdi-flowable-demo</module>
     </modules>
 
     <properties>
